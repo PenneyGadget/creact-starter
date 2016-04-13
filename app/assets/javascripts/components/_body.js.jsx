@@ -34,7 +34,6 @@ var Body = React.createClass({
   },
 
   updateSkills(skill) {
-  debugger
     var skills = this.state.skills.filter((s) => { return s.id != skill.id });
     skills.push(skill);
 
